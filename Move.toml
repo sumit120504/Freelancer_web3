@@ -1,0 +1,15 @@
+[package]
+name = "aptos_freelancer_escrow"
+version = "1.0.0"
+authors = []
+
+[addresses]
+aptos_freelancer_escrow = "0xd6b0b2206f7856e2948259ef9b1d152d589ac44478eca90daeb9ad2c525aa0e2"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
